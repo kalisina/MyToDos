@@ -15,6 +15,7 @@
 		04DF4D36299516EC00A63E3D /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF4D35299516EC00A63E3D /* DataStore.swift */; };
 		04DF4D382995232000A63E3D /* ToDoFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF4D372995232000A63E3D /* ToDoFormViewModel.swift */; };
 		04DF4D3A299525BE00A63E3D /* ToDoFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF4D39299525BE00A63E3D /* ToDoFormView.swift */; };
+		04DF4D3C29952EFD00A63E3D /* ModalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF4D3B29952EFD00A63E3D /* ModalType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		04DF4D35299516EC00A63E3D /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		04DF4D372995232000A63E3D /* ToDoFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoFormViewModel.swift; sourceTree = "<group>"; };
 		04DF4D39299525BE00A63E3D /* ToDoFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoFormView.swift; sourceTree = "<group>"; };
+		04DF4D3B29952EFD00A63E3D /* ModalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				04DF4D372995232000A63E3D /* ToDoFormViewModel.swift */,
 				04DF4D39299525BE00A63E3D /* ToDoFormView.swift */,
 				04DF4D33299515B500A63E3D /* ToDo.swift */,
+				04DF4D3B29952EFD00A63E3D /* ModalType.swift */,
 				04DF4D35299516EC00A63E3D /* DataStore.swift */,
 				04DF4D292995156F00A63E3D /* Assets.xcassets */,
 				04DF4D2B2995156F00A63E3D /* Preview Content */,
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04DF4D3A299525BE00A63E3D /* ToDoFormView.swift in Sources */,
+				04DF4D3C29952EFD00A63E3D /* ModalType.swift in Sources */,
 				04DF4D34299515B500A63E3D /* ToDo.swift in Sources */,
 				04DF4D36299516EC00A63E3D /* DataStore.swift in Sources */,
 				04DF4D282995156D00A63E3D /* ContentView.swift in Sources */,

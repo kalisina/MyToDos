@@ -27,6 +27,21 @@ struct ContentView: View {
                 
             }
             .listStyle(.insetGrouped)
+            .toolbar {
+                ToolbarItem(placement: .principal) {
+                    Text("My Todos")
+                        .font(.largeTitle)
+                        .foregroundColor(.red)
+                }
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button {
+                        
+                    } label: {
+                        Image(systemName: "plus.circle.fill")
+                    }
+
+                }
+            }
         }
     }
 }

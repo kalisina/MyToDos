@@ -8,19 +8,32 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @EnvironmentObject var dataStore: DataStore
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationStack {
+            List {
+                ForEach(dataStore.toDos, id: \.self) { todo in
+                    Button {
+                        
+                    } label: {
+                        Text(todo.name)
+                            .font(.title3)
+                            .strikethrough(todo.completed)
+                            .foregroundColor(todo.completed ? .green : Color(.label))
+                    }
+                }
+                
+            }
+            .listStyle(.insetGrouped)
         }
-        .padding()
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(DataStore())
     }
 }
